@@ -1,0 +1,166 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b9c8b8;
+    display: grid;
+    grid-template-columns: repeat(200, 0.5vw);
+    grid-template-rows: repeat(200, 0.5vh);
+}
+.navbar{
+    grid-area: 3/3/33/197;
+    background-color: #193046;
+    display: grid;
+    grid-template-columns: repeat(200, 0.485vw);
+    grid-template-rows: repeat(100, 0.15vh);
+    color: #f8f9f0;
+}
+.dropdown{
+    grid-area: 33/5/67/12;
+}
+.logo{
+    grid-area: 20/32/80/42;
+}
+.title{
+    grid-area: 33/45/67/79;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.time{
+    grid-area: 33/129/67/147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    grid-area: 33/161/67/191;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    grid-area: 30/191/67/197;
+}
+.to-do-list{
+    grid-area: 39/3/129/54;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-rows: repeat(100, 0.45vh);
+    grid-template-columns: repeat(100, 0.255vw);
+}
+.to-do-list1{
+    grid-area: 3/10/87/90;
+}
+.to-do-list2{
+    grid-area: 83/10/97/90;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.email{
+    grid-area: 133/3/197/54;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.255vw);
+    grid-template-rows: repeat(100, 0.32vh);
+}
+.email-icon{
+    grid-area: 5/25/85/75;
+}
+.email-text{
+    grid-area: 85/5/97/95;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.budget-tracker{
+    grid-area: 39/59/197/103;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.22vw);
+    grid-template-rows: repeat(100, 0.79vh);
+}
+.budget-icon{
+    grid-area:3/5/92/95;
+}
+.budget-text{
+    grid-area: 92/10/99/90;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.stocks{
+    grid-area: 39/108/129/150;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.21vw);
+    grid-template-rows: repeat(100, 0.45vh);
+}
+.stocks-icon{
+    grid-area: 5/5/90/95;
+}
+.stocks-text{
+    grid-area: 93/5/99/95;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.jokes{
+    grid-area: 133/108/197/150;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.21vw);
+    grid-template-rows: repeat(100, 0.32vh);
+}
+.jokes-icon{
+    grid-area: 5/25/85/75;
+}
+.jokes-text{
+    grid-area: 85/5/100/95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.weather-alert{
+    grid-area: 39/155/129/197;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.21vw);
+    grid-template-rows: repeat(100, 0.45vh);
+}
+.weather-alert-icon{
+    grid-area: 5/5/90/95;
+}
+.weather-alert-text{
+    grid-area: 93/5/99/95;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.dice{
+    grid-area: 133/155/197/197;
+    background-color: #f8f9f0;
+    display: grid;
+    grid-template-columns: repeat(100, 0.21vw);
+    grid-template-rows: repeat(100, 0.32vh);
+}
+.dice-icon{
+    grid-area: 5/25/85/75;
+}
+.dice-text{
+    grid-area: 85/5/100/95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.budget-tracker, .to-do-list, .email, .stocks, .jokes, .weather-alert, .dice{
+    box-shadow: 0px  0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
